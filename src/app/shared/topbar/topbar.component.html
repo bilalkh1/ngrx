@@ -1,0 +1,11 @@
+<ul>
+    <li><a href="">Home</a></li>
+
+    <ng-container *ngIf="isLoggedIn$ | async">
+        <li>
+            <a href="">
+                {{ (currentUser$ | async).username }}
+            </a>
+        </li>
+    </ng-container>
+</ul>

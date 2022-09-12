@@ -1,0 +1,90 @@
+Project Structure : Scalable Structure
+
+Create a module for each page in the web application
+
+/src
+  /app
+    /article
+      /components
+        /article
+          article.component.html
+          article.component.scss
+          article.component.ts
+        /comments
+       /services
+         article.service.ts
+       /store
+       /types
+         article.interface.ts
+      article.module.ts
+    app.component.ts
+    app.module.ts
+    app.component.html
+    
+    
+/src
+  /app
+    /article
+    /auth
+    /globalfeed
+    /shared
+      /modules
+        /feed
+          /components
+          /services
+          /store
+          /types
+          feed.module.ts
+
+
+
+
+Reducers : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
